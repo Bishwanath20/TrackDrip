@@ -120,4 +120,4 @@ def index():
     """, start=start, destination=destination, total_distance=total_distance, map_html=map._repr_html_())
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, use_reloader=False)
